@@ -14,11 +14,7 @@
     </div>
     <div>
         <label for="" class="form-label">City</label>
-        <select name="city" id="" value="{{$data->city}}" class="form-control" name="city">
-            <option value="Madrid">Madrid</option>
-            <option value="Paris">Paris</option>
-            <option value="Sri Lanka">Sri Lanka</option>
-        </select>
+        <input name="city" id="" value="{{ $data->city }}" class="form-control">
     </div>
     <div>
         <label for="" class="form-label">Salary</label>

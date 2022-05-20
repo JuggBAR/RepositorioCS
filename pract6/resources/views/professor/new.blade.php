@@ -14,11 +14,7 @@
     </div>
     <div>
         <label for="" class="form-label">City</label>
-        <select id="" class="form-control" name="city">
-            <option value="Madrid">Madrid</option>
-            <option value="Paris">Paris</option>
-            <option value="Sri Lanka">Sri Lanka</option>
-        </select>
+        <input id="" class="form-control" name="city">
     </div>
     <div>
         <label for="" class="form-label">Salary</label>

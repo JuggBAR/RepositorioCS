@@ -1,6 +1,5 @@
 @extends("templates.main")
 @section("title", "Professor List")
-
 @section("content")
 <a href="/professor_post_view" class="btn btn-primary">New Professor</a>
 <table class="table table-dark table-striped">
@@ -21,6 +20,12 @@
             <th>
                 Salary
             </th>
+            <th>
+                Edit
+            </th>
+            <td>
+                Delete
+            </td>
         </tr>
     </thead>
     <tbody>
