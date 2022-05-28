@@ -1,0 +1,21 @@
+[
+    {
+        "id": "38f721765a4e849d",
+        "type": "function",
+        "z": "0b8787aa68eda74f",
+        "name": "",
+        "func": "flow.set('req', false)\nvar obj = {payload: {\n    page: flow.get('params')\n}}\nif(flow.get('filter') != null){\n    obj.payload.data = flow.get('filter')\n    flow.set('filter', null)\n}\nreturn obj",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 480,
+        "wires": [
+            [
+                "087cbd8811f7fa03"
+            ]
+        ]
+    }
+]
